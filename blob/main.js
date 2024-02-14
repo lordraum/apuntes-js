@@ -8,7 +8,6 @@ const image = document.getElementById('image')
 const catUrl = image.attributes.src.value = '../img/cat.webp'
 const dogUrl = image.attributes.src.value = '../img/dog.webp'
 
-
 catButton.addEventListener('click', (e) => {
   fetch(catUrl)
     .then(x => x.blob())
