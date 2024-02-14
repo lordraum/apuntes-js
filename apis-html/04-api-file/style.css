@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    background-color: rgb(178, 135, 182);
+    font-family: sans-serif;
+    color: bisque;
+    user-select: none;
+}
+
+img{
+    max-width: 25%;
+    display: block;
+}

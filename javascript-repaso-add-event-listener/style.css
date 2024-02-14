@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+.button--blue{
+    background-color: rgb(52, 52, 243);
+    color: white;
+}
+
+.button--green{
+    background-color: rgb(79, 133, 83);
+}
+
+.box{
+    margin-top: 1em;
+    padding: 22px 5px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(105, 169, 241);
+    color: white;
+    text-align: center;
+    
+}
+
+
+

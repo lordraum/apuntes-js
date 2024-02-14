@@ -1,0 +1,40 @@
+:root{
+    --bar-width: 0;
+}
+
+body{
+    background-color: rgb(169, 170, 247);
+    font-family: sans-serif;
+    color: azure;
+}
+
+img{
+    min-width: 100%;    
+}
+
+.load-bar {
+    position: relative;
+    width: 50%;
+    background-color: #ccc;
+    height: 15px;
+    position: relative;
+    margin: 1rem 0;
+}
+
+.load-bar::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: royalblue;
+    width: var(--bar-width);
+    height: 100%;
+}
+
+.progress {
+    display: block;
+    background-color: royalblue;
+    height: 15px;
+    width: 0;
+}

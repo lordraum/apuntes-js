@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Form I</h1>
+    <form action="#" method="post" class="form" id="form">
+
+       <!--  Name -->
+        <div class="form__field">
+            <label for="name">Name:</label>
+            <input type="text" id="userName" name="name">            
+        </div>
+
+        <!-- Email -->
+        <div class="form__field">
+            <label for="email">Email:</label>
+            <input name="email" type="text" id="email">            
+        </div>
+
+         <!-- Gender -->
+         <div id="gender" class="form__field">
+            <label for="male">Male:</label>
+            <input type="radio" name="gender" value="male">
+            <label for="female">Female:</label>
+            <input type="radio" name="gender" value="female">
+        </div>
+        
+        <!-- Terms and conditions -->
+        <div class="form__field">
+            <label for="terms">Accept the terms and conditions</label>
+            <input name="terms" id="terms" type="checkbox">
+        </div>   
+
+        <!-- Send -->
+        <button class="submitButton" type="submit" id="submitButton" disabled>Send</button>
+       
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
